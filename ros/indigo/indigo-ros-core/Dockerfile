@@ -1,7 +1,7 @@
 # This is an auto generated Dockerfile for ros:indigo-ros-core
 # generated from templates/docker_images/create_ros_core_image.Dockerfile.em
 # generated on 2017-05-23 21:41:45 +0000
-FROM ubuntu:trusty
+FROM pipill/armhf-ubuntu:trusty
 
 # setup keys
 RUN apt-key adv --keyserver ha.pool.sks-keyservers.net --recv-keys 421C365BD9FF1F717815A3895523BAEEB01FA116

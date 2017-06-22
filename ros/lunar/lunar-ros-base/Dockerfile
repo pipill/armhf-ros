@@ -1,7 +1,7 @@
 # This is an auto generated Dockerfile for ros:lunar-ros-base
 # generated from templates/docker_images/create_ros_image.Dockerfile.em
 # generated on 2017-05-23 21:41:02 +0000
-FROM ros:lunar-ros-core
+FROM pipill/armhf-ros:lunar-ros-core
 
 # install ros packages
 RUN apt-get update && apt-get install -y \
